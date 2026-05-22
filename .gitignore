@@ -1,0 +1,25 @@
+# build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+a.out
+kmeans_demo
+
+# generated outputs
+data/*.csv
+output/*.png
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
